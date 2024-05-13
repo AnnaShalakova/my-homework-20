@@ -6,6 +6,7 @@ import org.junit.Rule
 import org.junit.Test
 import ru.tinkoff.fintech.meowle.presentation.view.AuthActivity
 import ru.tinkoff.fintech.meowle.screens.kaspresso.KaspressoAuthScreen
+import ru.tinkoff.fintech.meowle.screens.kaspresso.KaspressoSearchScreen
 import ru.tinkoff.fintech.meowle.screens.kaspresso.KautomatorAuthScreen
 import java.lang.Thread.sleep
 

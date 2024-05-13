@@ -14,7 +14,7 @@ import ru.tinkoff.fintech.meowle.R
 /**
  * @author Ruslan Ganeev
  */
-class KaspressoSearchScreen : KScreen<KaspressoAuthScreen>() {
+class KaspressoSearchScreen : KScreen<KaspressoSearchScreen>() {
 
     override val layoutId: Int = R.layout.search_fragment
     override val viewClass: Class<*>? = null
@@ -36,6 +36,12 @@ class KaspressoSearchScreen : KScreen<KaspressoAuthScreen>() {
     fun checkCatName(catName: String, position: Int) {
         catsList.childAt<CatCard>(position) {
             this.catName.containsText(catName)
+        }
+    }
+
+    fun clickCatInSearchResult(position: Int) {
+        catsList.childAt<CatCard>(position) {
+            this.click()
         }
     }
 

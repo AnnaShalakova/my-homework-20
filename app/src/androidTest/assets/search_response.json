@@ -1,0 +1,24 @@
+{
+  "groups": [{
+    "title": "Б",
+    "cats": [{
+      "id": 17815,
+      "name": "Барсик",
+      "description": "Лучший котик",
+      "tags": null,
+      "gender": "male",
+      "likes": 2,
+      "dislikes": 0
+    }, {
+      "id": 17825,
+      "name": "Борис",
+      "description": "Энергичный котик",
+      "tags": null,
+      "gender": "male",
+      "likes": 0,
+      "dislikes": 0
+    }],
+    "count": 2
+  }],
+  "count": 2
+}

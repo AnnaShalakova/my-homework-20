@@ -1,0 +1,11 @@
+{
+  "cat": {
+    "id": 17815,
+    "name": "Барсик",
+    "description": "Лучший котик",
+    "tags": null,
+    "gender": "male",
+    "likes": 2,
+    "dislikes": 0
+  }
+}

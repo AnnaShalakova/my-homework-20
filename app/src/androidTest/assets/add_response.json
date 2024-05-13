@@ -1,0 +1,11 @@
+{
+  "cats": [{
+    "id": 21460,
+    "name": "Барсик",
+    "description": "",
+    "tags": null,
+    "gender": "unisex",
+    "likes": 0,
+    "dislikes": 0
+  }]
+}
